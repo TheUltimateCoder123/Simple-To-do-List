@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+   
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <div class="container m-5 p-2 rounded mx-auto bg-light shadow">
+      <div class="row m-1 p-4">
+        <div class="col">
+          <div
+            class="p-1 h1 text-primary text-center mx-auto display-inline-block"
+          >
+            <p>List Today</p>
+          </div>
+        </div>
+      </div>
+      <form id="formValid" class="row m-1 p-3">
+        <div class="col col-11 mx-auto">
+          <div
+            class="
+              row
+              bg-white
+              rounded
+              shadow-sm
+              p-2
+              add-todo-wrapper
+              align-items-center
+              justify-content-center
+            "
+          >
+            <div class="col">
+              <input
+                class="forminput
+                  form-control form-control-lg
+                  border-0
+                  add-todo-input
+                  bg-transparent
+                  rounded
+                "
+                type="text"
+                placeholder="Add new .."
+              />
+             
+            </div>
+
+            <div class="col-auto px-0 mx-0 mr-2">
+              <button type="submit" class="add btn btn-primary">Add</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="p-2 mx-4 border-black-25 border-bottom"></div>
+
+      <div class="row mx-1 px-5 pb-3 w-80">
+        <div class="col mx-auto">
+          <ul id="final">
+            <!-- <li class="delItem d-flex justify-content-md-between my-4">
+              <p>learn JavaScript</p>
+              <button type="button" class="btn btn-primary">X</button>
+            </li>
+
+            <li class="delItem d-flex justify-content-md-between my-4">
+              <p>learn JavaScript</p>
+              <button type="button" class="btn btn-primary">X</button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/myscript.js"></script>
+  </body>
+</html>
